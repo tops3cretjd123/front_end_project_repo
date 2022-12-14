@@ -10,6 +10,13 @@
             box-sizing:border-box;
         }
 
+        .row::after{
+
+            content:"";
+            clear: both;
+            display:table;
+        }
+
         [class*="col-"]{
 
             float:left;
@@ -55,11 +62,11 @@
         }
 
         .footer{
-            background-color: rgb(0, 255, 191);
-            color: #ffffff;
+            background-color: rgb(255, 0, 170);
+            color: #0c0606;
             text-align: center;
             font-size: 12px;
-            padding: 15px;
+            padding: 10px;
         }
 
         /* For mobile phones: */
@@ -153,6 +160,7 @@
     </div>
 
 </div>
+
 <div class = "footer">
     <p>This is a footer</p>
 </div>
