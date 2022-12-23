@@ -1,0 +1,63 @@
+/* CSS HEX
+--apricot: #ffcdb2ff;
+--melon: #ffb4a2ff;
+--pastel-pink: #e5989bff;
+--english-lavender: #b5838dff;
+--old-lavender: #6d6875ff;*/
+body{
+    height: 100vh;
+}
+.header{
+    background-color:#e5989bff ;
+    color: #ffcdb2ff;
+    text-align: center;
+    height: 20%;
+    font-size: 3em;
+    line-height: 50px;
+    padding-top: 30px;
+}
+.navbar{
+    background-color: #6d6875ff;
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar a{
+    float: left;
+    display: block;
+    text-decoration: none;
+    padding: 12px 15px;
+    text-align: center;
+    color: #ffcdb2ff;
+    background-color: #6d6875ff;
+    
+    
+    
+}
+.navbar a:hover{
+    background-color: black;
+    cursor: grab;
+}
+.main{
+    clear: both;
+    border: 1px solid  #b5838dff;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 300px;
+}
+.footer {
+    background-color:#e5989bff ;
+    color: #ffcdb2ff;
+    text-align: center;
+    height: 10%;
+    font-size: 1em;
+   
+}
+@media (max-width:600px)  {
+    .navbar{
+        background-color: #b5838dff;
+        flex-direction: column;
+        border: 1px;
+        border-color: yellow;
+    }
+}
